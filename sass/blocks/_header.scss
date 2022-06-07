@@ -1,0 +1,88 @@
+
+.header-logo {
+  padding: 25px 0;
+}
+
+.header-logo--lili {
+  padding: 25px 0 50px;
+  background: #fff;
+}
+
+.header-logo--inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-logo--in {
+  display: flex;
+  align-items: center;
+  @include header_logo 
+}
+
+.header-logo--in__go {
+  margin-right: 24px;
+}
+
+.header-logo--in__inner--in {
+  text-decoration: none;
+  margin-bottom: 0;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #22343D;
+}
+
+.header-logo--in__inner {
+  text-decoration: none;
+  margin-bottom: 0;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  color: #22343D;
+}
+
+.header-item {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #173A56;
+  padding: 5px 25px;
+  background-color: #fff;
+  border: 1px solid #BCD0E5;
+  border-radius: 4px; 
+}
+
+.header-item--inner {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  padding: 5px 25px;
+  background: #02897A;
+  border-radius: 4px;
+  border: 1px solid #02897A;
+}
+
+.header-title {
+  display: none;
+}
+
+.header-button {
+  background-color: transparent;
+  border: none;
+}
+
+@media only screen and (max-width:576px) {
+  
+  .header-logo--in { 
+    display: none;
+  }
+  
+  
+  .header-title {
+    display: block;
+  }
+  
+}

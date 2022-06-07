@@ -1,0 +1,98 @@
+
+.main-fine {
+  margin-bottom: 230px;
+}
+
+
+.main-fine--inner {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 51px;
+  color: #22343D;
+}
+
+.main-fine--inner__in {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #22343D;
+  margin-bottom: 32px;
+}
+
+.fine-item {
+  display: flex;
+  justify-content: space-around;
+  @include header_logo 
+}
+
+.fine-title {
+  padding: 20px 20px 40px;
+  background-color: #fff;
+}
+
+.fine-title--inner {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #22343D;
+}
+
+.fine-text {
+  max-width: 294px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 40px;
+  color: #22343D;
+}
+
+.fine-text:hover {
+  color: #02897A;
+}
+
+.fine-slogan {
+  margin-top: 64px;
+  max-width: 68px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.fine-slogan--in {
+  display: block;
+  width: 16px;
+  height: 16px;
+  background-color: #fff;
+  border-radius: 50px;
+}
+
+.fine-slogan--in__inner {
+  display: block;
+  width: 16px;
+  height: 16px;
+  background-color: #02897A;
+  border-radius: 50px;
+}
+
+.fine-slogan--in:hover {
+  background-color: #02897A;
+}
+
+@media only screen and (max-width:576px) {
+  
+  .fine-item {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main-fine--inner {
+    text-align: center;
+  }
+
+  .main-fine--inner__in {
+    text-align: center;
+  }
+  
+  
+}

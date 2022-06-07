@@ -1,0 +1,138 @@
+.main-four {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.main-four--inner__in {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  color: #22343D;
+  margin-bottom: 15px;
+}
+
+.main-four--inner__go {
+  max-width: 542px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #22343D;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.four-link {
+  display: flex;
+  justify-content: space-around;
+}
+
+.four-item:nth-child(even) {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.four-item--inner:nth-child(even) {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.four-item--inner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.four-item--inner__go {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.main-four--inner {
+  @include header_logo 
+}
+
+.four-item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.four-item--in {
+  margin: 0 5px 0 5px;
+  max-width: 274px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2F281E;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 15px #173a561a;
+  border-radius: 26.5px;
+  padding: 15px 25px;
+}
+
+.four-lol {
+  padding-top: 48px;
+  text-align: center;
+}
+
+.four-a--href {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  background: #02897A;
+  border-radius: 4px;
+  padding: 15px 30px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.main-sex--inner__lili_lolo {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #22343D; 
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.four-section--one {
+  margin-bottom: 150px;
+}
+
+@media only screen and (max-width:576px) {
+  
+  .four-link {
+    flex-direction: column;
+  }
+
+  .four-item--inner__go {
+    flex-direction: row-reverse;
+  }
+  
+  .four-item--inner:nth-child(even) { 
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .four-item {
+    justify-content: center;
+  }
+
+  .four-item--inner {
+    justify-content: center;
+  }
+
+  .four-item--inner__go {
+    justify-content: center;
+  }
+}

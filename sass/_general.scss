@@ -1,0 +1,26 @@
+html {
+  scroll-behavior: smooth;
+}
+
+*,*::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #edebeb;
+}
+
+main {
+  flex-grow: 1;
+}
+
+img {
+  vertical-align: middle;
+  object-fit: cover;
+}
